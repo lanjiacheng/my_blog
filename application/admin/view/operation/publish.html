@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ch">
+{include file="static/model/admin_head.html"/} {load href="/static/js/jquery.min.js,/static/js/bootstrap.min.js"/}
+
+<body>
+    <!-- 添加导航栏 -->
+    {include file="static/model/admin_nav.html"/}
+    <!-- 内容 -->
+    <div class="container-fluid content_body">
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-4">
+                                <div>
+                                    <h4>发表博文</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-xs-8">
+                                <div style="float: right;">
+                                    <button id="send" type="button" class="btn btn-success">
+                                        <span class="glyphicon glyphicon-send"></span> 发表</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h4>
+                                <span class="label label-warning">标题</span>
+                            </h4>
+                            <input id="title" type="text" class="form-control post_content">
+                        </li>
+                        <li class="list-group-item">
+                            <h4>
+                                <span class="label label-warning">作者</span>
+                            </h4>
+                            <input id="author" type="text" class="form-control post_content">
+                        </li>
+                        <li class="list-group-item">
+                            <h4>
+                                <span class="label label-warning">预览图片</span>
+                            </h4>
+                            <input type="file" class="choose_image_preview">
+                            <img id="image_of_preview" class="post_content" src="" />
+                        </li>
+                        <li class="list-group-item">
+                            <h4>
+                                <span class="label label-warning">分类</span>
+                            </h4>
+                            <form>
+                                <label class="radio-inline">
+                                    <input type="radio" name="category" value="diary"> 日记
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="category" value="thought"> 感想
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="category" value="footprint"> 足迹
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="category" value="programme"> 编程
+                                </label>
+                            </form>
+                        </li>
+                        <li class="list-group-item">
+                            <h4>
+                                <span class="label label-warning">预览文字</span>
+                            </h4>
+                            <textarea id="text_preview" class="post_content form-control" rows="5"></textarea>
+                        </li>
+                        <li id="add_btn_bar" class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12">
+                                    <div style="float: right;">
+                                        <button id="add_subtitle" type="button" class="btn btn-primary">
+                                            <span class="glyphicon glyphicon-bookmark"></span> 小标题</button>
+                                        <button id="add_paragraph" type="button" class="btn btn btn-success">
+                                            <span class="glyphicon glyphicon-align-left"></span> 段落</button>
+                                        <button id="add_image" type="button" class="btn btn-info">
+                                            <span class="glyphicon glyphicon-picture"></span> 图片</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{load href="/static/js/admin_publish.js"/}
+
+</html>

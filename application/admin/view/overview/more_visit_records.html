@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ch">
+{include file="static/model/admin_head.html"/} {load href="/static/js/jquery.min.js,/static/js/bootstrap.min.js"/}
+
+<body>
+    <!-- 添加导航栏 -->
+    {include file="static/model/admin_nav.html"/}
+    <!-- 内容 -->
+    <div class="container-fluid content_body">
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">
+                        <h4>{$title}</h4>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>访客ip</th>
+                                        <th>时间</th>
+                                        <th>阅读简介</th>
+                                        <th>阅读博文数</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {volist name="visit_records" id="visit_record"}
+                                    <tr>
+                                        <th scope="row">{$key+1}</th>
+                                        <td>{$visit_record.ip|long2ip}</td>
+                                        <td>{$visit_record.visit_time}</td>
+                                        <td>{switch name="visit_record.visit_author"} {case value="1"}是{/case} {case value="0"}否{/case}
+                                            {/switch}
+                                        </td>
+                                        <td>
+                                            <a class="get_visit_posts" href="/admin/overview/visit_posts.html?visit_id={$visit_record.id}">{$visit_record.visit_posts_count}</a>
+                                        </td>
+                                    </tr>
+                                    {/volist}
+                                </tbody>
+                            </table>
+                            <div class="page-list">
+                                {$pagelist}
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //给阅读博文篇数字样设置点击事件监听
+        $(".get_visit_posts").each(function () {
+            $(this).click(function (event) {
+                event.preventDefault();
+                var url = $(this).attr("href");
+                $.get(url, function (data) {
+                    alert(data);
+                })
+            });
+        });
+    </script>
+</body>
+
+</html>

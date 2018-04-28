@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<!-- 此处添加头文件 -->
+{include file="static/model/head.html"/}
+
+<body>
+	<!-- 此处添加nav.html文件，以显示导航栏 -->
+	{include file="static/model/nav.html"}
+	<div class="container">
+		<header>
+			<a href="index.html">
+				<img src="/static/images/logo.png">
+			</a>
+		</header>
+		<!-- 添加滑动图片 -->
+		{include file="static/model/slider.html"}
+		<section>
+			<div class="row">
+				<div class="col-md-8">
+					<!-- 此处添加post_preview.html文件，以展示多个博文预览 -->
+					{include file="static/model/post_preview.html"/}
+					<div class="pagediv">
+							{$posts->render()}
+					</div>
+				</div>
+				<!-- <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div> -->
+				<div class="col-md-4 sidebar-gutter">
+					<aside>
+						<!-- 此处添加other_bar.html文件，以显示其他版块内容 -->
+						{include file="static/model/other_bar.html"/}
+					</aside>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- /.container -->
+	<!-- 添加底部板块 -->
+	{include file="static/model/footer.html"/}
+	<!-- 导入脚本文件 -->
+	{load href="/static/js/jquery.min.js,/static/js/bootstrap.min.js,/static/js/jquery.bxslider.js,/static/js/mooz.scripts.min.js"/}
+	{load href="/static/js/bootstrap-datetimepicker.min.js"/}
+	{load href="/static/js/bootstrap-datetimepicker.zh-CN.js"/}
+	{load href="/static/js/myscripts.js"/}
+</body>
+</html>
+<!-- 
+	总结一下thinkphp框架中资源的引用：
+	一般资源放在/$projectRootDir/public/static/目录
+	不同属性有不同引用方式：
+	{ include }标签中的file属性用：static/...
+	{ load }标签中的href属性用：/static/...
+	< img >标签中的src属性用：/static/...
+ -->

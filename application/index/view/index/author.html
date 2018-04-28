@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+{include file="static/model/head.html"/}
+
+<body>
+	<!-- 此处添加nav.html文件，以显示导航栏 -->
+	{include file="static/model/nav.html"}
+	<div class="container">
+		<header>
+			<img src="/static/images/logo.png">
+		</header>
+		<section>
+			<div class="row">
+				<div class="col-md-12">
+					<article class="blog-post">
+						<div class="blog-post-body">
+							<h2>
+								{$author.introduction_title}
+							</h2>
+							<div class="blog-post-text">
+								{$author.introduction_content}
+								<!-- 
+									介绍内容可按以下格式来控制板式：
+									<p>段落一</p>
+									<p>段落二</p>
+									<h3>小标题</h3>
+									<p>段落三</p>
+									<p>段落四</p> 
+								-->
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- /.container -->
+
+	{include file="static/model/footer.html"/}
+	<!-- 导入脚本 -->
+	{load href="/static/js/jquery.min.js,/static/js/bootstrap.min.js,/static/js/jquery.bxslider.js,/static/js/mooz.scripts.min.js"/}
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+		{include file="static/model/head.html"}
+	<body>
+		<!-- Navigation -->
+		{include file="static/model/nav.html"}
+		<div class="container">
+		<header>
+			<a href="index.html"><img src="/static/images/logo.png"></a>
+		</header>
+		<section>
+			<div class="row">
+				<div class="col-md-8">
+					<!-- 此处添加post_content.html文件 -->
+					{include file="static/model/post_content.html"/}
+				</div>
+				<div class="col-md-4 sidebar-gutter">
+					<aside>
+						<!-- 此处添加other_bar.html文件，以显示其他版块内容 -->
+						{include file="static/model/other_bar.html"/}
+					</aside>
+				</div>
+			</div>
+		</section>
+		</div><!-- /.container -->
+		{include file="static/model/footer.html"/}
+		<!-- 导入脚本文件 -->
+		{load href="/static/js/jquery.min.js,/static/js/bootstrap.min.js,/static/js/jquery.bxslider.js,/static/js/mooz.scripts.min.js"/}
+		{load href="/static/js/bootstrap-datetimepicker.min.js"/}
+		{load href="/static/js/bootstrap-datetimepicker.zh-CN.js"/}
+		{load href="/static/js/myscripts.js"/}
+	</body>
+</html>

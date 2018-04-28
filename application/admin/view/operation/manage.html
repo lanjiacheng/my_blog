@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ch">
+{include file="static/model/admin_head.html"/} {load href="/static/js/jquery.min.js,/static/js/bootstrap.min.js"/}
+
+<body>
+    <!-- 添加导航栏 -->
+    {include file="static/model/admin_nav.html"/}
+    <!-- 内容 -->
+    <div class="container-fluid content_body">
+        <br/>
+        <br/>
+        <br/>
+        <div class=" row ">
+            <div class="col-md-9 ">
+                <div class="panel panel-default ">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading ">
+                        <h4>{$title}</h4>
+                    </div>
+                    <ul class="list-group ">
+                        <li class="list-group-item ">
+                            <div class="row">
+                                <div class="col-md-1 col-xs-1">
+                                    <h4>序号</h4>
+                                </div>
+                                <div class="col-md-7 col-xs-7">
+                                    <h4>标题</h4>
+                                </div>
+                                <div class="col-md-2 col-xs-2">
+                                    <h4>时间</h4>
+                                </div>
+                                <div class="col-md-2 col-xs-2">
+                                    <h4>操作</h4>
+                                </div>
+                            </div>
+                        </li>
+                        {volist name="posts" id="post" key="i"}
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-1 col-xs-1">{$i+($page-1)*$rows}</div>
+                                <div class="col-md-7 col-xs-7">{$post.title}</div>
+                                <div class="col-md-2 col-xs-2">{$post.create_date}</div>
+                                <div class="col-md-2 col-xs-2">
+                                    <div id_of_post="{$post.id}">
+                                        {$post.is_top==0? '
+                                        <button class="top btn btn-success btn-xs" type="button">置顶</button>':'
+                                        <button class="un_top btn btn-warning btn-xs" type="button">取顶</button>'}
+                                        <button class="delete btn btn-danger btn-xs" type="button">删除</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        {/volist}
+                    </ul>
+                    <div class="pagediv">
+                        {$posts->render()}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="panel panel-default ">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading ">
+                        <h4>按月份查找</h4>
+                    </div>
+                    <ul class="list-group ">
+                        <li class="list-group-item ">
+                            <!-- 添加时间控件 -->
+                            {include file="static/model/admin_manage_calendar_input.html"/}
+                        </li>
+                        <li class="list-group-item ">
+                            <h5>最近月份：</h5>
+                            <table class="table table-bordered ">
+                                <tbody>
+                                    {volist name="recent_dates " id="recent_date "}
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-calendar "></span>
+                                            <a href="/admin/operation/manage.html?month={$recent_date} ">{$recent_date}</a>
+                                        </td>
+                                    </tr>
+                                    {/volist}
+                                </tbody>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{load href="/static/js/bootstrap-datetimepicker.min.js"/} {load href="/static/js/bootstrap-datetimepicker.zh-CN.js"/} {load
+href="/static/js/admin_manage.js"/}
+
+</html>

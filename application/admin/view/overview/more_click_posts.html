@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ch">
+{include file="static/model/admin_head.html"/} {load href="/static/js/jquery.min.js,/static/js/bootstrap.min.js"/}
+
+<body>
+    <!-- 添加导航栏 -->
+    {include file="static/model/admin_nav.html"/}
+    <!-- 内容 -->
+    <div class="container-fluid content_body">
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">
+                        <h4>{$title}</h4>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>博文标题</th>
+                                        <th>点击数</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {volist name="click_posts" id="click_post"}
+                                    <tr name="">
+                                        <th scope="row">{$key+1}</th>
+                                        <td>{$click_post.title}</td>
+                                        <td>{$click_post.click_count}</td>
+                                    </tr>
+                                    {/volist}
+                                </tbody>
+                            </table>
+                            <div class="page-list">
+                                {$pagelist}
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
