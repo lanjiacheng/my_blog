@@ -1,0 +1,307 @@
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.myblog.com/index/index/index.html [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：3,143.73kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/category.html?category=thought',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'recent_months',
+  3 => 'top_posts',
+  4 => 'posts',
+  5 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.065004s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/15/image_preview.jpg
+[ info ] www.myblog.com/static/images/15/image_preview.jpg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/14/image_preview.jpg
+[ info ] www.myblog.com/static/images/14/image_preview.jpg [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '14',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.036003s][吞吐率：27.78req/s] [内存消耗：1,512.40kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/12/image_preview.jpg
+[ info ] www.myblog.com/static/images/12/image_preview.jpg [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '12',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/13/image_preview.jpg
+[ info ] www.myblog.com/static/images/13/image_preview.jpg [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:53+08:00 ] 127.0.0.1 GET /static/images/11/image_preview.jpg
+[ info ] www.myblog.com/static/images/11/image_preview.jpg [运行时间：0.143008s][吞吐率：6.99req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:54+08:00 ] 127.0.0.1 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] www.myblog.com/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,512.99kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.myblog.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.myblog.com/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-18T16:37:54+08:00 ] 127.0.0.1 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] www.myblog.com/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,512.99kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.myblog.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.myblog.com/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[ 2018-04-14T13:01:23+08:00 ] 127.0.0.1 GET /
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Index::fetch()
+---------------------------------------------------------------
+[ 2018-04-14T13:03:06+08:00 ] 127.0.0.1 GET /
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2018-04-14T13:03:08+08:00 ] 127.0.0.1 GET /
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2018-04-14T13:04:02+08:00 ] 127.0.0.1 GET /
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2018-04-14T13:04:03+08:00 ] 127.0.0.1 GET /
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2018-04-14T13:04:04+08:00 ] 127.0.0.1 GET /
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2018-04-14T15:11:42+08:00 ] 127.0.0.1 GET /index/index/category
+[ error ] [8]Use of undefined constant CONTROLLER_NAME - assumed 'CONTROLLER_NAME'
+---------------------------------------------------------------
+[ 2018-04-14T15:12:07+08:00 ] 127.0.0.1 GET /index/index/category
+[ error ] [8]Use of undefined constant CONTROLLER_NAME - assumed 'CONTROLLER_NAME'
+---------------------------------------------------------------
+[ 2018-04-14T15:12:59+08:00 ] 127.0.0.1 GET /index/index/category
+[ error ] [8]Use of undefined constant __CONTROLLER_NAME__ - assumed '__CONTROLLER_NAME__'
+---------------------------------------------------------------
+[ 2018-04-14T15:13:47+08:00 ] 127.0.0.1 GET /index/index/category
+[ error ] [8]Use of undefined constant __SELF__ - assumed '__SELF__'
+---------------------------------------------------------------
+[ 2018-04-14T15:14:09+08:00 ] 127.0.0.1 GET /index/index/category
+[ error ] [8]Use of undefined constant _SELF_ - assumed '_SELF_'

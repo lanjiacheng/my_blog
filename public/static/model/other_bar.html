@@ -1,0 +1,59 @@
+<!-- 其他版块文件，包括博主简介、推荐博文、分时间分类等 -->
+<div class="sidebar-widget">
+    <h3 class="sidebar-title">博主简介</h3>
+    <div class="widget-container widget-about">
+        <a href="/index/index/author.html">
+            <img src="/static/images/image_author.jpg" alt="">
+        </a>
+        <h4>
+            <a href="/index/index/author.html">{$author.name}</a>
+        </h4>
+        <div class="author-title">{$author.label}</div>
+        <p>{$author.introduction_preview}</p>
+    </div>
+</div>
+<!-- sidebar-widget -->
+<div class="sidebar-widget">
+    <h3 class="sidebar-title">推荐博文</h3>
+    <div class="widget-container">
+        {volist name="recommended_posts" id="recommended_post"}
+        <article class="widget-post">
+            <div class="post-image">
+                <a href="/index/index/post.html?post_id={$recommended_post.id}">
+                    <img src="/static/images/{$recommended_post.timestamp}/image_preview.jpg" alt="">
+                </a>
+            </div>
+            <div class="post-body">
+                <h2>
+                    <a href="/index/index/post.html?post_id={$recommended_post.id}">{$recommended_post.title}</a>
+                </h2>
+                <div class="post-meta">
+                    <span>
+                        <i class="fa fa-clock-o"></i> {$recommended_post.create_date}</span>
+                    <span>
+                        <i class="fa fa-eye"></i> {$recommended_post.post_click_count}
+                    </span>
+                </div>
+            </div>
+        </article>
+        {/volist}
+    </div>
+</div>
+<!-- sidebar-widget -->
+<div class="sidebar-widget">
+    <h3 class="sidebar-title">按月查找</h3>
+    <div class="widget-container">
+        <!-- 以下添加时间控件 -->
+        {include file="static/model/calendar_input.html"/}
+        <br/>
+        <h5>近期月份：</h5>
+        <!-- 以下添加近期月份列表 -->
+        <ul id="my_month_ul">
+            {volist name="recent_months" id="recent_month"}
+            <li>
+                <a href="/index/index/category_by_month.html?month={$recent_month.str}"> {$recent_month.year} 年 {$recent_month.month} 月</a>
+            </li>
+            {/volist}
+        </ul>
+    </div>
+</div>

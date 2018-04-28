@@ -1,0 +1,3335 @@
+---------------------------------------------------------------
+[ 2018-04-16T22:21:23+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,512.55kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:21:23+08:00 ] 127.0.0.1 GET /static/images/11/image_preview.jpg
+[ info ] www.myblog.com/static/images/11/image_preview.jpg [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:21:23+08:00 ] 127.0.0.1 GET /static/images/12/image_preview.jpg
+[ info ] www.myblog.com/static/images/12/image_preview.jpg [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '12',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:21:23+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:21:23+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:21:23+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:21:26+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=2018-03
+[ info ] www.myblog.com/index/index/category_by_month.html?month=2018-03 [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,053.90kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2018-03',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '2018-03' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:21:32+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=2018-04
+[ info ] www.myblog.com/index/index/category_by_month.html?month=2018-04 [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,055.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2018-04',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '2018-04' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /
+[ info ] www.myblog.com/ [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：3,142.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'posts',
+  3 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/15/image_preview.jpg
+[ info ] www.myblog.com/static/images/15/image_preview.jpg [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/11/image_preview.jpg
+[ info ] www.myblog.com/static/images/11/image_preview.jpg [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/14/image_preview.jpg
+[ info ] www.myblog.com/static/images/14/image_preview.jpg [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '14',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/13/image_preview.jpg
+[ info ] www.myblog.com/static/images/13/image_preview.jpg [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/12/image_preview.jpg
+[ info ] www.myblog.com/static/images/12/image_preview.jpg [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '12',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:43:57+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:44:49+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=2018-04
+[ info ] www.myblog.com/index/index/category_by_month.html?month=2018-04 [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,055.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2018-04',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '2018-04' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:45:03+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=
+[ info ] www.myblog.com/index/index/category_by_month.html?month= [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,053.83kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:45:16+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=2018-04
+[ info ] www.myblog.com/index/index/category_by_month.html?month=2018-04 [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：2,055.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2018-04',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '2018-04' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:45:21+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=2018-03
+[ info ] www.myblog.com/index/index/category_by_month.html?month=2018-03 [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,053.90kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2018-03',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '2018-03' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /
+[ info ] www.myblog.com/ [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：3,142.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'posts',
+  3 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/15/image_preview.jpg
+[ info ] www.myblog.com/static/images/15/image_preview.jpg [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/12/image_preview.jpg
+[ info ] www.myblog.com/static/images/12/image_preview.jpg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '12',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/14/image_preview.jpg
+[ info ] www.myblog.com/static/images/14/image_preview.jpg [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '14',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/13/image_preview.jpg
+[ info ] www.myblog.com/static/images/13/image_preview.jpg [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/11/image_preview.jpg
+[ info ] www.myblog.com/static/images/11/image_preview.jpg [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:45:25+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:30+08:00 ] 127.0.0.1 GET /index/index/diary.html
+[ info ] www.myblog.com/index/index/diary.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：3,313.42kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'diary',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->diary[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\category.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'class_of_nav_item_diary',
+  3 => 'posts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.002000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `category` = 'diary' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `category` = 'diary' ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:47:31+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:31+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:31+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,512.40kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:31+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:31+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:34+08:00 ] 127.0.0.1 GET /index/index/programme.html
+[ info ] www.myblog.com/index/index/programme.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：3,128.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'programme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->programme[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\category.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'class_of_nav_item_programme',
+  3 => 'posts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `category` = 'programme' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `category` = 'programme' ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:47:34+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/programme.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:34+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/programme.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:34+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/programme.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:34+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/programme.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:34+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/programme.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:36+08:00 ] 127.0.0.1 GET /index/index/post.html?post_id=1
+[ info ] www.myblog.com/index/index/post.html?post_id=1 [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：2,231.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'post',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/programme.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'post_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->post[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\post.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'post',
+  3 => 'class_of_nav_item_programme',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:47:36+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:36+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:36+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:36+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:36+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.myblog.com/index/index/index.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：3,142.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'posts',
+  3 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.002000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/11/image_preview.jpg
+[ info ] www.myblog.com/static/images/11/image_preview.jpg [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/15/image_preview.jpg
+[ info ] www.myblog.com/static/images/15/image_preview.jpg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,512.40kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/12/image_preview.jpg
+[ info ] www.myblog.com/static/images/12/image_preview.jpg [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '12',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/13/image_preview.jpg
+[ info ] www.myblog.com/static/images/13/image_preview.jpg [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/14/image_preview.jpg
+[ info ] www.myblog.com/static/images/14/image_preview.jpg [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '14',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:43+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:47+08:00 ] 127.0.0.1 GET /index/index/index.html?page=3
+[ info ] www.myblog.com/index/index/index.html?page=3 [运行时间：0.045001s][吞吐率：22.22req/s] [内存消耗：3,127.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'posts',
+  3 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 10,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:47:47+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:47+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:47+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:47+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:47:47+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:01+08:00 ] 127.0.0.1 GET /index/index/post.html?post_id=1
+[ info ] www.myblog.com/index/index/post.html?post_id=1 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,054.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'post',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'post_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->post[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\post.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'post',
+  3 => 'class_of_nav_item_programme',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:48:01+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:01+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:01+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:01+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:01+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,512.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:05+08:00 ] 127.0.0.1 GET /index/index/author.html
+[ info ] www.myblog.com/index/index/author.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,051.30kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'author',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/post.html?post_id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->author[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\author.html [ array (
+  0 => 'author',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /
+[ info ] www.myblog.com/ [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：3,141.87kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'posts',
+  3 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/13/image_preview.jpg
+[ info ] www.myblog.com/static/images/13/image_preview.jpg [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/15/image_preview.jpg
+[ info ] www.myblog.com/static/images/15/image_preview.jpg [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/12/image_preview.jpg
+[ info ] www.myblog.com/static/images/12/image_preview.jpg [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '12',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/11/image_preview.jpg
+[ info ] www.myblog.com/static/images/11/image_preview.jpg [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/14/image_preview.jpg
+[ info ] www.myblog.com/static/images/14/image_preview.jpg [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '14',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:44+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /
+[ info ] www.myblog.com/ [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：3,142.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'posts',
+  3 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/12/image_preview.jpg
+[ info ] www.myblog.com/static/images/12/image_preview.jpg [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '12',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/13/image_preview.jpg
+[ info ] www.myblog.com/static/images/13/image_preview.jpg [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/11/image_preview.jpg
+[ info ] www.myblog.com/static/images/11/image_preview.jpg [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/14/image_preview.jpg
+[ info ] www.myblog.com/static/images/14/image_preview.jpg [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '14',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/15/image_preview.jpg
+[ info ] www.myblog.com/static/images/15/image_preview.jpg [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:48:58+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:49:08+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=2018-04
+[ info ] www.myblog.com/index/index/category_by_month.html?month=2018-04 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,055.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2018-04',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '2018-04' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:50:47+08:00 ] 127.0.0.1 GET /?page=3
+[ info ] www.myblog.com/?page=3 [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：3,127.09kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'posts',
+  3 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 10,5 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-04-16T22:50:47+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,512.39kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:50:47+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,512.38kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:50:47+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,512.39kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:50:47+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,512.39kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T22:50:48+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,512.39kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:00:11+08:00 ] 127.0.0.1 GET /index/index/diary.html
+[ info ] www.myblog.com/index/index/diary.html [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：3,128.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'diary',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->diary[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\category.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'class_of_nav_item_diary',
+  3 => 'posts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `category` = 'diary' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `category` = 'diary' ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-16T23:00:12+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,512.40kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:00:12+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:00:12+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:00:12+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:00:12+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:04:27+08:00 ] 127.0.0.1 GET /index/index/diary.html
+[ info ] www.myblog.com/index/index/diary.html [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：3,128.56kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'diary',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->diary[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/index\view\index\category.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'class_of_nav_item_diary',
+  3 => 'posts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `category` = 'diary' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `category` = 'diary' ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-16T23:04:27+08:00 ] 127.0.0.1 GET /static/images/5/image_preview.jpg
+[ info ] www.myblog.com/static/images/5/image_preview.jpg [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:04:27+08:00 ] 127.0.0.1 GET /static/images/image_author.jpg
+[ info ] www.myblog.com/static/images/image_author.jpg [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,512.40kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:04:27+08:00 ] 127.0.0.1 GET /static/images/4/image_preview.jpg
+[ info ] www.myblog.com/static/images/4/image_preview.jpg [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:04:27+08:00 ] 127.0.0.1 GET /static/images/2/image_preview.jpg
+[ info ] www.myblog.com/static/images/2/image_preview.jpg [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:04:27+08:00 ] 127.0.0.1 GET /static/images/3/image_preview.jpg
+[ info ] www.myblog.com/static/images/3/image_preview.jpg [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：1,512.41kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:04:30+08:00 ] 127.0.0.1 GET /index/index/category_by_month.html?month=2018-04
+[ info ] www.myblog.com/index/index/category_by_month.html?month=2018-04 [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：2,055.22kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.myblog.com/index/index/diary.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4011004928',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2018-04',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ D:\wamp\www\my_blog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where DATE_FORMAT(create_date,'%Y-%m') = '2018-04' [ RunTime:0.001000s ]

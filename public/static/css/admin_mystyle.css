@@ -1,0 +1,45 @@
+@media (min-width: 992px){
+    .content_body{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .content_body{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px){
+    #myrow{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+
+@media (max-width: 768px){
+#myrow{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+
+.mycol{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#mysubmit{
+    float: right;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

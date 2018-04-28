@@ -1,0 +1,37 @@
+<!-- 多个博文预览部分 -->
+<!-- 
+    引用本模板需要赋值的变量：
+    posts           一个包含多个博文的二维数组
+ -->
+{volist name="posts" id="post"}
+<article class="blog-post">
+    <div class="blog-post-image">
+        <a href="/index/index/post.html?post_id={$post.id}">
+            <!-- 建议添加9:6比例的图片 -->
+            <img src="/static/images/{$post.timestamp}/image_preview.jpg" alt="">
+        </a>
+    </div>
+    <div class="blog-post-body">
+        <h2>
+            <a href="/index/index/post.html?post_id={$post.id}">{$post.title}</a>
+        </h2>
+        <div class="post-meta">
+            <span>作者：
+                <a href="/index/index/author.html">{$post.author}</a>
+            </span>/
+            <span>
+                <i class="fa fa-clock-o"></i>{$post.create_date}</span>/
+            <span>
+                <!-- <i class="fa fa-comment-o"></i> -->
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                <!-- <span class="glyphicon glyphicon-eye-open"></span> -->
+                <a href="#">{$post.post_click_count}</a>
+            </span>
+        </div>
+        <p>{$post.preview}</p>
+        <div class="read-more">
+            <a href="/index/index/post.html?post_id={$post.id}">继续阅读</a>
+        </div>
+    </div>
+</article>
+{/volist}

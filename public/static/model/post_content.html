@@ -1,0 +1,33 @@
+<!-- 博文内容模板 -->
+<article class="blog-post">
+    <div class="blog-post-image">
+            <img src="/static/images/{$post.timestamp}/image_preview.jpg" alt="">
+    </div>
+    <div class="blog-post-body">
+        <h2>
+            <span>{$post.title}</span>
+        </h2>
+        <div class="post-meta">
+            <span>作者：<a href="/index/index/author.html">{$post.author}</a>
+            </span>/
+            <span>
+                <i class="fa fa-clock-o"></i>{$post.create_date}</span>/
+            <span>
+                <i class="fa fa-eye"></i>
+                <span>{$post.post_click_count}</span>
+            </span>
+        </div>
+        <div class="blog-post-text">
+            <!-- 
+            按以下格式可以控制博文内容板式
+            <p>这里是一段</p>
+            <p>这里是一段</p>
+            <h3>小标题</h3>
+            <p>这里是一段</p>
+            <img src="/static/images/test_01.jpg" alt="这里放图片">
+            <p>这里是一段</p>
+            -->
+            {$post.content}
+        </div>
+    </div>
+</article>

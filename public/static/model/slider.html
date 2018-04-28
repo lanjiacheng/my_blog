@@ -1,0 +1,18 @@
+<!-- 滑动图片 -->
+<section class="main-slider">
+    <ul class="bxslider">
+        {volist name="top_posts" id="top_post"}
+        <li>
+            <div class="slider-item">
+                <a href="/index/index/post.html?post_id={$top_post.id}">
+                    <!-- 建议此处添加比例为5:2的图片 -->
+                    <img src="/static/images/{$top_post.timestamp}/image_preview.jpg" title="{$top_post.title}" />
+                </a>
+                <h2>
+                    <a href="/index/index/post.html?post_id={$top_post.id}" title="{$top_post.title}">{$top_post.title}</a>
+                </h2>
+            </div>
+        </li>
+        {/volist}
+    </ul>
+</section>

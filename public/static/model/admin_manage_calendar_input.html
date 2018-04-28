@@ -1,0 +1,20 @@
+<!-- <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen"> -->
+{load href="/static/css/bootstrap-datetimepicker.min.css"/}
+<h5>输入月份：</h5>
+<form action="/admin/operation/manage.html" class="form-horizontal" role="form">
+    <div id="myrow" class="row">
+        <div class="col-md-9 col-xs-10 mycol">
+            <div class="input-group date form_date" data-date="" data-date-format="yyyy mm" data-link-field="dtp_input2" data-link-format="yyyy-mm">
+                <input class="form-control" size="16" readonly/>
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+            <input type="hidden" id="dtp_input2" value="" name="month"/>
+        </div>
+        <div class="col-md-3 col-xs-2 mycol">
+            <input id="mysubmit" class="btn" type="submit" value="查找" />
+        </div>
+    </div>
+</form>
