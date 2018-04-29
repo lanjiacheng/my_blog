@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 ---------------------------------------------------------------
 [ 2018-04-29T12:22:42+08:00 ] 171.106.221.233 GET /
 [ info ] 112.74.180.119/ [运行时间：0.006556s][吞吐率：152.53req/s] [内存消耗：592.20kb] [文件加载：58]
 [ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+=======
+---------------------------------------------------------------
+[ 2018-04-29T08:36:48+08:00 ] 192.168.2.130 GET /admin/overview/day.html
+[ info ] 192.168.2.130/admin/overview/day.html [运行时间：0.852049s][吞吐率：1.17req/s] [内存消耗：2,391.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+>>>>>>> origin/master
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -6066,11 +6074,21 @@
 )
 [ info ] [ HEADER ] array (
   'host' => '112.74.180.119',
+=======
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'day',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+>>>>>>> origin/master
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+<<<<<<< HEAD
   'referer' => 'http://112.74.180.119/index/index/index.html',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.9',
@@ -6202,6 +6220,33 @@
 [ 2018-04-29T12:59:02+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
 [ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001750s][吞吐率：571.43req/s] [内存消耗：224.59kb] [文件加载：41]
 [ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+=======
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'account=root; password=ljc19980217.',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Overview->day[ D:\wamp\www\my_blog\application\admin\controller\Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/admin\view\overview\day.html [ array (
+  0 => 'class_of_overview',
+  1 => 'title',
+  2 => 'summa',
+  3 => 'click_posts',
+  4 => 'visit_records',
+  5 => 'date',
+  6 => 'recent_dates',
+  7 => 'calendar',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027002s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.051003s ]
+---------------------------------------------------------------
+[ 2018-04-29T08:36:49+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.195012s][吞吐率：5.13req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+>>>>>>> origin/master
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -6210,6 +6255,7 @@
     1 => 'fonts',
     2 => 'glyphicons-halflings-regular.woff2',
   ),
+<<<<<<< HEAD
 )
 [ info ] [ HEADER ] array (
   'host' => '112.74.180.119',
@@ -6229,6 +6275,26 @@
 [ 2018-04-29T12:59:10+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
 [ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001835s][吞吐率：545.00req/s] [内存消耗：224.59kb] [文件加载：41]
 [ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+=======
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T08:36:49+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+>>>>>>> origin/master
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -6237,6 +6303,7 @@
     1 => 'fonts',
     2 => 'glyphicons-halflings-regular.woff',
   ),
+<<<<<<< HEAD
 )
 [ info ] [ HEADER ] array (
   'host' => '112.74.180.119',
@@ -6256,11 +6323,32 @@
 [ 2018-04-29T12:59:19+08:00 ] 171.106.221.233 GET /admin/operation/publish.html
 [ info ] 112.74.180.119/admin/operation/publish.html [运行时间：0.002105s][吞吐率：475.06req/s] [内存消耗：270.78kb] [文件加载：46]
 [ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+=======
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T12:43:48+08:00 ] 192.168.2.130 GET /admin/overview/day.html
+[ info ] 192.168.2.130/admin/overview/day.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,216.34kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+>>>>>>> origin/master
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'admin',
+<<<<<<< HEAD
     1 => 'operation',
     2 => 'publish',
   ),
@@ -6288,6 +6376,44 @@
 [ 2018-04-29T12:59:19+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
 [ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001784s][吞吐率：560.51req/s] [内存消耗：224.59kb] [文件加载：41]
 [ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+=======
+    1 => 'overview',
+    2 => 'day',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Overview->day[ D:\wamp\www\my_blog\application\admin\controller\Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/admin\view\overview\day.html [ array (
+  0 => 'class_of_overview',
+  1 => 'title',
+  2 => 'summa',
+  3 => 'click_posts',
+  4 => 'visit_records',
+  5 => 'date',
+  6 => 'recent_dates',
+  7 => 'calendar',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T12:43:48+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+>>>>>>> origin/master
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -6296,6 +6422,7 @@
     1 => 'fonts',
     2 => 'glyphicons-halflings-regular.woff2',
   ),
+<<<<<<< HEAD
 )
 [ info ] [ HEADER ] array (
   'host' => '112.74.180.119',
@@ -6315,6 +6442,313 @@
 [ 2018-04-29T12:59:19+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
 [ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001670s][吞吐率：598.76req/s] [内存消耗：224.59kb] [文件加载：41]
 [ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+=======
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T12:43:48+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+>>>>>>> origin/master
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+<<<<<<< HEAD
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+12%3A59%3A02',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+=======
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+>>>>>>> origin/master
+---------------------------------------------------------------
+[ 2018-04-29T13:22:39+08:00 ] 171.106.221.233 GET /admin/overview/more_visit_records.html?type=day&date=2018-04-29
+[ info ] 112.74.180.119/admin/overview/more_visit_records.html?type=day&date=2018-04-29 [运行时间：0.003909s][吞吐率：255.83req/s] [内存消耗：418.98kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'more_visit_records',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/admin/overview/day.html',
+  'acoept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'day',
+  'date' => '2018-04-29',
+)
+[ info ] [ RUN ] app\admin\controller\Overview->more_visit_records[ /var/www/my_blog/application/admin/controller/Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/admin/view/overview/more_visit_records.html [ array (
+  0 => 'class_of_overview',
+  1 => 'title',
+  2 => 'visit_records',
+  3 => 'pagelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000584s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.000616s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:22:41+08:00 ] 171.106.221.233 GET /admin/overview/visit_posts.html?visit_id=74
+[ info ] 112.74.180.119/admin/overview/visit_posts.html?visit_id=74 [运行时间：0.002209s][吞吐率：452.70req/s] [内存消耗：321.06kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'visit_posts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://112.74.180.119/admin/overview/more_visit_records.html?type=day&date=2018-04-29',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+  'visit_id' => '74',
+)
+[ info ] [ RUN ] app\admin\controller\Overview->visit_posts[ /var/www/my_blog/application/admin/controller/Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where id = 74 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:22:44+08:00 ] 171.106.221.233 GET /admin/overview/visit_posts.html?visit_id=70
+[ info ] 112.74.180.119/admin/overview/visit_posts.html?visit_id=70 [运行时间：0.002936s][吞吐率：340.58req/s] [内存消耗：318.26kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'visit_posts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://112.74.180.119/admin/overview/more_visit_records.html?type=day&date=2018-04-29',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+  'visit_id' => '70',
+)
+[ info ] [ RUN ] app\admin\controller\Overview->visit_posts[ /var/www/my_blog/application/admin/controller/Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where id = 70 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] select title from post where id = 1 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:22:47+08:00 ] 171.106.221.233 GET /admin/overview/visit_posts.html?visit_id=68
+[ info ] 112.74.180.119/admin/overview/visit_posts.html?visit_id=68 [运行时间：0.003319s][吞吐率：301.29req/s] [内存消耗：318.71kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'visit_posts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://112.74.180.119/admin/overview/more_visit_records.html?type=day&date=2018-04-29',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+  'visit_id' => '68',
+)
+[ info ] [ RUN ] app\admin\controller\Overview->visit_posts[ /var/www/my_blog/application/admin/controller/Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where id = 68 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] select title from post where id = 26 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] select title from post where id = 28 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] select title from post where id = 29 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:22:50+08:00 ] 171.106.221.233 GET /admin/overview/visit_posts.html?visit_id=69
+[ info ] 112.74.180.119/admin/overview/visit_posts.html?visit_id=69 [运行时间：0.002623s][吞吐率：381.23req/s] [内存消耗：318.26kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'visit_posts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://112.74.180.119/admin/overview/more_visit_records.html?type=day&date=2018-04-29',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+  'visit_id' => '69',
+)
+[ info ] [ RUN ] app\admin\controller\Overview->visit_posts[ /var/www/my_blog/application/admin/controller/Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where id = 69 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] select title from post where id = 1 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:22:58+08:00 ] 171.106.221.233 GET /admin/operation/manage.html
+[ info ] 112.74.180.119/admin/operation/manage.html [运行时间：0.004629s][吞吐率：216.03req/s] [内存消耗：544.45kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'operation',
+    2 => 'manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/admin/overview/more_visit_records.html?type=day&date=2018-04-29',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Operation->manage[ /var/www/my_blog/application/admin/controller/Operation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/admin/view/operation/manage.html [ array (
+  0 => 'title',
+  1 => 'posts',
+  2 => 'page',
+  3 => 'rows',
+  4 => 'recent_dates',
+  5 => 'calendar',
+  6 => 'class_of_operation',
+  7 => 'class_of_manage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY `timestamp`  asc LIMIT 0,5 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:22:58+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001726s][吞吐率：579.40req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:22:58+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001885s][吞吐率：530.52req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -6333,8 +6767,1283 @@
   'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+12%3A59%3A02',
+  'cookie' => 'visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
 )
 [ info ] [ PARAM ] array (
 )
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:23:00+08:00 ] 171.106.221.233 GET /admin/operation/handle_manage.html?manage=delete&id=23
+[ info ] 112.74.180.119/admin/operation/handle_manage.html?manage=delete&id=23 [运行时间：0.002685s][吞吐率：372.43req/s] [内存消耗：283.22kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'operation',
+    2 => 'handle_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://112.74.180.119/admin/operation/manage.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+  'manage' => 'delete',
+  'id' => '23',
+)
+[ info ] [ RUN ] app\admin\controller\Operation->handle_manage[ /var/www/my_blog/application/admin/controller/Operation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select timestamp from post where id = 23 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] delete from post where post.id = '23' [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:23:04+08:00 ] 171.106.221.233 GET /admin/operation/manage.html
+[ info ] 112.74.180.119/admin/operation/manage.html [运行时间：0.005066s][吞吐率：197.39req/s] [内存消耗：544.64kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'operation',
+    2 => 'manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/admin/overview/more_visit_records.html?type=day&date=2018-04-29',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.; thinkphp_show_page_trace=0|0; visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Operation->manage[ /var/www/my_blog/application/admin/controller/Operation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/admin/view/operation/manage.html [ array (
+  0 => 'title',
+  1 => 'posts',
+  2 => 'page',
+  3 => 'rows',
+  4 => 'recent_dates',
+  5 => 'calendar',
+  6 => 'class_of_operation',
+  7 => 'class_of_manage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY `timestamp`  asc LIMIT 0,5 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:23:04+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001582s][吞吐率：632.15req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:23:04+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001582s][吞吐率：632.05req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'visit_id=68; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A16%3A54',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:17+08:00 ] 171.106.221.233 GET /
+[ info ] 112.74.180.119/ [运行时间：0.005135s][吞吐率：194.74req/s] [内存消耗：537.98kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A21%3A19; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/my_blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/index/view/index/index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'recent_months',
+  3 => 'top_posts',
+  4 => 'posts',
+  5 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000315s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:31:17+08:00 ] 171.106.221.233 GET /static/images/image_author.jpg
+[ info ] 112.74.180.119/static/images/image_author.jpg [运行时间：0.001549s][吞吐率：645.58req/s] [内存消耗：224.15kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A31%3A17; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:17+08:00 ] 171.106.221.233 GET /static/images/15/image_preview.jpg
+[ info ] 112.74.180.119/static/images/15/image_preview.jpg [运行时间：0.001269s][吞吐率：788.11req/s] [内存消耗：224.11kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A31%3A17; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:18+08:00 ] 171.106.221.233 GET /static/images/13/image_preview.jpg
+[ info ] 112.74.180.119/static/images/13/image_preview.jpg [运行时间：0.001641s][吞吐率：609.37req/s] [内存消耗：224.11kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A31%3A17; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:18+08:00 ] 171.106.221.233 GET /static/images/4/image_preview.jpg
+[ info ] 112.74.180.119/static/images/4/image_preview.jpg [运行时间：0.003877s][吞吐率：257.94req/s] [内存消耗：224.11kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A31%3A17; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:18+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001706s][吞吐率：586.21req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A31%3A17; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:18+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001793s][吞吐率：557.75req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A31%3A17; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:38+08:00 ] 171.106.221.233 GET /index/index/category_by_month.html?month=2017-05
+[ info ] 112.74.180.119/index/index/category_by_month.html?month=2017-05 [运行时间：0.005856s][吞吐率：170.76req/s] [内存消耗：529.54kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'category_by_month',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'lastVisit=2018-04-29+13%3A31%3A17; visit_id=69; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'month' => '2017-05',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->category_by_month[ /var/www/my_blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/index/view/index/category.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'recent_months',
+  3 => 'posts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2017-05-01' AND '2017-05-31' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2017-05-01' AND '2017-05-31' ORDER BY `timestamp`  asc LIMIT 0,3 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2018-04-29T13:31:39+08:00 ] 171.106.221.233 GET /static/images/15/image_preview.jpg
+[ info ] 112.74.180.119/static/images/15/image_preview.jpg [运行时间：0.001794s][吞吐率：557.46req/s] [内存消耗：224.19kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/category_by_month.html?month=2017-05',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:39+08:00 ] 171.106.221.233 GET /static/images/4/image_preview.jpg
+[ info ] 112.74.180.119/static/images/4/image_preview.jpg [运行时间：0.001448s][吞吐率：690.65req/s] [内存消耗：224.19kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/category_by_month.html?month=2017-05',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:39+08:00 ] 171.106.221.233 GET /static/images/13/image_preview.jpg
+[ info ] 112.74.180.119/static/images/13/image_preview.jpg [运行时间：0.003510s][吞吐率：284.90req/s] [内存消耗：224.19kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/category_by_month.html?month=2017-05',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:39+08:00 ] 171.106.221.233 GET /static/images/image_author.jpg
+[ info ] 112.74.180.119/static/images/image_author.jpg [运行时间：0.001324s][吞吐率：755.19req/s] [内存消耗：224.23kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/category_by_month.html?month=2017-05',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:39+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001674s][吞吐率：597.39req/s] [内存消耗：224.63kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:39+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001781s][吞吐率：561.49req/s] [内存消耗：224.63kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:48+08:00 ] 171.106.221.233 GET /static/images/4/image_preview.jpg
+[ info ] 112.74.180.119/static/images/4/image_preview.jpg [运行时间：0.001447s][吞吐率：691.10req/s] [内存消耗：224.14kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:48+08:00 ] 171.106.221.233 GET /static/images/13/image_preview.jpg
+[ info ] 112.74.180.119/static/images/13/image_preview.jpg [运行时间：0.003219s][吞吐率：310.67req/s] [内存消耗：224.14kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:48+08:00 ] 171.106.221.233 GET /static/images/15/image_preview.jpg
+[ info ] 112.74.180.119/static/images/15/image_preview.jpg [运行时间：0.005373s][吞吐率：186.12req/s] [内存消耗：224.14kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:48+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001626s][吞吐率：615.00req/s] [内存消耗：224.63kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T13:31:48+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001806s][吞吐率：553.70req/s] [内存消耗：224.63kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+13%3A31%3A38; visit_id=69',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:35:17+08:00 ] 171.106.221.233 GET /index/index/index.html
+[ info ] 112.74.180.119/index/index/index.html [运行时间：0.005877s][吞吐率：170.15req/s] [内存消耗：539.83kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'aocept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/my_blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/index/view/index/index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'recent_months',
+  3 => 'top_posts',
+  4 => 'posts',
+  5 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000315s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875907561,'2018-04-29 14:35:17',NULL,0) [ RunTime:0.000300s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 14:35:17' [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2018-04-29T14:35:17+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.002699s][吞吐率：370.49req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:35:17+08:00 ] 171.106.221.233 GET /static/images/image_author.jpg
+[ info ] 112.74.180.119/static/images/image_author.jpg [运行时间：0.001741s][吞吐率：574.33req/s] [内存消耗：224.17kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:35:17+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001957s][吞吐率：510.94req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:35:17+08:00 ] 171.106.221.233 GET /static/images/15/image_preview.jpg
+[ info ] 112.74.180.119/static/images/15/image_preview.jpg [运行时间：0.001743s][吞吐率：573.70req/s] [内存消耗：224.13kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:35:17+08:00 ] 171.106.221.233 GET /static/images/13/image_preview.jpg
+[ info ] 112.74.180.119/static/images/13/image_preview.jpg [运行时间：0.001410s][吞吐率：709.22req/s] [内存消耗：224.13kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:35:17+08:00 ] 171.106.221.233 GET /static/images/4/image_preview.jpg
+[ info ] 112.74.180.119/static/images/4/image_preview.jpg [运行时间：0.001756s][吞吐率：569.49req/s] [内存消耗：224.13kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:35:21+08:00 ] 171.106.221.233 GET /static/js/jquery.min.map
+[ info ] 112.74.180.119/static/js/jquery.min.map [运行时间：0.001863s][吞吐率：536.77req/s] [内存消耗：223.48kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:36:22+08:00 ] 171.106.221.233 GET /index/index/index.html
+[ info ] 112.74.180.119/index/index/index.html [运行时间：0.005121s][吞吐率：195.27req/s] [内存消耗：538.84kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|0; lastVisit=2018-04-29+14%3A35%3A17; visit_id=75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/my_blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/index/view/index/index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'recent_months',
+  3 => 'top_posts',
+  4 => 'posts',
+  5 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-04-29T14:36:22+08:00 ] 171.106.221.233 GET /static/images/image_author.jpg
+[ info ] 112.74.180.119/static/images/image_author.jpg [运行时间：0.001578s][吞吐率：633.68req/s] [内存消耗：224.17kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'image_author.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:36:22+08:00 ] 171.106.221.233 GET /static/images/15/image_preview.jpg
+[ info ] 112.74.180.119/static/images/15/image_preview.jpg [运行时间：0.001324s][吞吐率：755.32req/s] [内存消耗：224.13kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '15',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:36:22+08:00 ] 171.106.221.233 GET /static/images/13/image_preview.jpg
+[ info ] 112.74.180.119/static/images/13/image_preview.jpg [运行时间：0.006129s][吞吐率：163.16req/s] [内存消耗：224.13kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '13',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:36:22+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.003970s][吞吐率：251.90req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:36:22+08:00 ] 171.106.221.233 GET /static/images/4/image_preview.jpg
+[ info ] 112.74.180.119/static/images/4/image_preview.jpg [运行时间：0.001346s][吞吐率：743.01req/s] [内存消耗：224.13kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => '4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://112.74.180.119/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:36:23+08:00 ] 171.106.221.233 GET /static/js/jquery.min.map
+[ info ] 112.74.180.119/static/js/jquery.min.map [运行时间：0.001680s][吞吐率：595.19req/s] [内存消耗：223.48kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:36:23+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001686s][吞吐率：593.17req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:46:14+08:00 ] 80.82.70.187 GET http://www.baidu.com/cache/global/img/gs.gif
+[ info ] www.baidu.comhttp://www.baidu.com/cache/global/img/gs.gif [运行时间：0.001827s][吞吐率：547.34req/s] [内存消耗：222.22kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cache',
+    1 => 'global',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.baidu.com',
+  'user-agent' => 'Mozilla',
+  'if-modified-since' => 'Thu, 19 Apr 2012 09:51:20 GMT',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:47:57+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.001873s][吞吐率：533.90req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T14:47:57+08:00 ] 171.106.221.233 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 112.74.180.119/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.001662s][吞吐率：601.68req/s] [内存消耗：224.59kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'origin' => 'http://112.74.180.119',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://112.74.180.119/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; visit_id=75; lastVisit=2018-04-29+14%3A36%3A22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T15:14:50+08:00 ] 112.74.90.71 GET /
+[ info ] 112.74.180.119/ [运行时间：0.005910s][吞吐率：169.21req/s] [内存消耗：537.58kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'python-requests/2.18.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/my_blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/index/view/index/index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'recent_months',
+  3 => 'top_posts',
+  4 => 'posts',
+  5 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000313s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1883920967,'2018-04-29 15:14:50',NULL,0) [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 15:14:50' [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2018-04-29T15:31:52+08:00 ] 39.105.66.74 GET /
+[ info ] 112.74.180.119/ [运行时间：0.005793s][吞吐率：172.63req/s] [内存消耗：537.10kb] [文件加载：56]
+[ info ] [ LANG ] /var/www/my_blog/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '112.74.180.119',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/my_blog/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/my_blog/public/../application/index/view/index/index.html [ array (
+  0 => 'author',
+  1 => 'recommended_posts',
+  2 => 'recent_months',
+  3 => 'top_posts',
+  4 => 'posts',
+  5 => 'class_of_nav_item_home',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000317s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(661209674,'2018-04-29 15:31:52',NULL,0) [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 15:31:52' [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000274s ]

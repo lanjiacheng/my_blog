@@ -47,6 +47,11 @@
     list-style: none;
 }
 
+/* 小标题居中 */
+h3{
+    text-align: center;
+}
+
 /* 给手机页面设置字体格式 */
 @media (max-width: 768px){
     /* 博文内容段落 */

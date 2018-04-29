@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"/var/www/my_blog/public/../application/admin/view/operation/publish.html";i:1524975511;s:28:"static/model/admin_head.html";i:1524975511;s:27:"static/model/admin_nav.html";i:1524975511;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"/var/www/my_blog/public/../application/admin/view/operation/publish.html";i:1524978618;s:28:"static/model/admin_head.html";i:1524975511;s:27:"static/model/admin_nav.html";i:1524975511;}*/ ?>
 <!DOCTYPE html>
 <html lang="ch">
 <head>
@@ -118,13 +118,13 @@
                                     <input type="radio" name="category" value="diary"> 日记
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="category" value="thought"> 感想
-                                </label>
-                                <label class="radio-inline">
                                     <input type="radio" name="category" value="footprint"> 足迹
                                 </label>
                                 <label class="radio-inline">
                                     <input type="radio" name="category" value="programme"> 编程
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="category" value="thought"> 杂谈
                                 </label>
                             </form>
                         </li>
