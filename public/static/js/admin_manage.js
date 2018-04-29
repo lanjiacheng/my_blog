@@ -58,7 +58,7 @@ $(".top").each(function () {
         var cur_btn = $(this);
         $.get("/admin/operation/handle_manage.html" + "?manage=top&id=" + id_of_post, function (data, status) {
             alert(data);
-            cur_btn.text("取消置顶");
+            cur_btn.text("取顶");
             cur_btn.attr("class", "un_top btn btn-warning btn-xs");
         });
     });
