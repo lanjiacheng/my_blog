@@ -3,7 +3,7 @@
     引用本模板需要赋值的变量：
     posts           一个包含多个博文的二维数组
  -->
-{volist name="posts" id="post"}
+{volist name="posts" id="post" empty="$empty"}
 <article class="blog-post">
     <div class="blog-post-image">
         <a href="/index/index/post.html?post_id={$post.id}">

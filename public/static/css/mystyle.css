@@ -47,16 +47,12 @@
     list-style: none;
 }
 
-/* 小标题居中 */
-h3{
-    text-align: center;
-}
-
 /* 给手机页面设置字体格式 */
 @media (max-width: 768px){
     /* 博文内容段落 */
     .blog-post .blog-post-text p{
         font-size: 14px;
+        line-height: 20px;
     }
 
     /* 小标题 */
@@ -78,6 +74,7 @@ h3{
     /* 博主简介预览段落 */
     .widget-about p{
         font-size: 15px;
+        line-height: 20px;
     }
 
     /* 最近时间列表文字 */
@@ -89,6 +86,7 @@ h3{
     /* 博文预览段落 */
     .blog-post .blog-post-body p{
         font-size: 14px;
+        line-height: 25px;
     }
 
     /* 滑动图片上的字样 */
@@ -97,7 +95,6 @@ h3{
         padding: 10px 10px;
         background-color: rgba(0, 0, 0, 0.17);
     }
-
 }
 
 @media (min-width: 992px){
@@ -110,4 +107,14 @@ h3{
     .widget-about p{
         font-size: 14px;
     }
+}
+
+/* 小标题居中 */
+h3{
+    text-align: center;
+}
+
+/* 段首空两格 */
+p{
+    text-indent: 2em;
 }

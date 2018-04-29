@@ -91,7 +91,6 @@ class Index extends Controller
         $post = new Post();
         $request = Request::instance();
         $month = $request->get("month");
-        // $result = Db::query("select * from post where DATE_FORMAT(create_date,'%Y-%m') = '".$month."'");
         $posts = $post->whereTime("create_date", "between", [$month, $month . '-31'])->order("timestamp", "asc")->paginate(3);
         $view->assign("posts", $posts);
         return $view->fetch("category");
@@ -175,5 +174,8 @@ class Index extends Controller
     public function _initialize()
     {
         $this->view = new View();
+        //定义一个空变量，在查找不到数据的时候显示
+        $empty = '<div class="alert alert-warning" role="alert">暂时查找不到您想看的数据，请先看看别的内容吧。</div>';
+        $this->view->assign("empty",$empty);
     }
 }
