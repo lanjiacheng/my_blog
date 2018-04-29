@@ -1,0 +1,186 @@
+---------------------------------------------------------------
+[ 2018-04-29T08:36:48+08:00 ] 192.168.2.130 GET /admin/overview/day.html
+[ info ] 192.168.2.130/admin/overview/day.html [运行时间：0.852049s][吞吐率：1.17req/s] [内存消耗：2,391.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'day',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'account=root; password=ljc19980217.',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Overview->day[ D:\wamp\www\my_blog\application\admin\controller\Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/admin\view\overview\day.html [ array (
+  0 => 'class_of_overview',
+  1 => 'title',
+  2 => 'summa',
+  3 => 'click_posts',
+  4 => 'visit_records',
+  5 => 'date',
+  6 => 'recent_dates',
+  7 => 'calendar',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027002s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.051003s ]
+---------------------------------------------------------------
+[ 2018-04-29T08:36:49+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.195012s][吞吐率：5.13req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T08:36:49+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T12:43:48+08:00 ] 192.168.2.130 GET /admin/overview/day.html
+[ info ] 192.168.2.130/admin/overview/day.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,216.34kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'overview',
+    2 => 'day',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; account=root; password=ljc19980217.',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Overview->day[ D:\wamp\www\my_blog\application\admin\controller\Overview.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\my_blog\public/../application/admin\view\overview\day.html [ array (
+  0 => 'class_of_overview',
+  1 => 'title',
+  2 => 'summa',
+  3 => 'click_posts',
+  4 => 'visit_records',
+  5 => 'date',
+  6 => 'recent_dates',
+  7 => 'calendar',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T12:43:48+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff2
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-29T12:43:48+08:00 ] 192.168.2.130 GET /static/fonts/glyphicons-halflings-regular.woff
+[ info ] 192.168.2.130/static/fonts/glyphicons-halflings-regular.woff [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,613.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\my_blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'glyphicons-halflings-regular.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.130',
+  'connection' => 'keep-alive',
+  'origin' => 'http://192.168.2.130',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://192.168.2.130/static/css/bootstrap.min.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
