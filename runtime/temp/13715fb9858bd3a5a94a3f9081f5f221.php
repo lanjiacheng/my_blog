@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"D:\wamp\www\my_blog\public/../application/index\view\index\author.html";i:1523862580;s:22:"static/model/head.html";i:1524833424;s:21:"static/model/nav.html";i:1524831987;s:24:"static/model/footer.html";i:1524009893;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"D:\wamp\www\my_blog\public/../application/index\view\index\author.html";i:1523862580;s:22:"static/model/head.html";i:1524927514;s:21:"static/model/nav.html";i:1524927514;s:24:"static/model/footer.html";i:1524927514;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh">
 <!-- 头文件 -->

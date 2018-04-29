@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:74:"D:\wamp\www\my_blog\public/../application/admin\view\operation\manage.html";i:1524836623;s:28:"static/model/admin_head.html";i:1524829678;s:27:"static/model/admin_nav.html";i:1524831623;s:45:"static/model/admin_manage_calendar_input.html";i:1524736277;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:74:"D:\wamp\www\my_blog\public/../application/admin\view\operation\manage.html";i:1524836623;s:28:"static/model/admin_head.html";i:1524927514;s:27:"static/model/admin_nav.html";i:1524927514;s:45:"static/model/admin_manage_calendar_input.html";i:1524927514;}*/ ?>
 <!DOCTYPE html>
 <html lang="ch">
 <head>

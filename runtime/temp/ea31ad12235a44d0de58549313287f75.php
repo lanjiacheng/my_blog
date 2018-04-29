@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:7:{s:72:"D:\wamp\www\my_blog\public/../application/index\view\index\category.html";i:1523874317;s:22:"static/model/head.html";i:1524833424;s:21:"static/model/nav.html";i:1524831987;s:30:"static/model/post_preview.html";i:1524025545;s:27:"static/model/other_bar.html";i:1524832627;s:32:"static/model/calendar_input.html";i:1524022393;s:24:"static/model/footer.html";i:1524009893;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:7:{s:72:"D:\wamp\www\my_blog\public/../application/index\view\index\category.html";i:1523874317;s:22:"static/model/head.html";i:1524927514;s:21:"static/model/nav.html";i:1524927514;s:30:"static/model/post_preview.html";i:1524987753;s:27:"static/model/other_bar.html";i:1524927514;s:32:"static/model/calendar_input.html";i:1524927514;s:24:"static/model/footer.html";i:1524927514;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh">
 	<!-- 此处添加头文件 -->
@@ -79,7 +79,7 @@
     引用本模板需要赋值的变量：
     posts           一个包含多个博文的二维数组
  -->
-<?php if(is_array($posts) || $posts instanceof \think\Collection || $posts instanceof \think\Paginator): $i = 0; $__LIST__ = $posts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$post): $mod = ($i % 2 );++$i;?>
+<?php if(is_array($posts) || $posts instanceof \think\Collection || $posts instanceof \think\Paginator): $i = 0; $__LIST__ = $posts;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$post): $mod = ($i % 2 );++$i;?>
 <article class="blog-post">
     <div class="blog-post-image">
         <a href="/index/index/post.html?post_id=<?php echo $post['id']; ?>">
@@ -110,7 +110,7 @@
         </div>
     </div>
 </article>
-<?php endforeach; endif; else: echo "" ;endif; ?>
+<?php endforeach; endif; else: echo "$empty" ;endif; ?>
 					<div class="pagediv">
 							<?php echo $posts->render(); ?>
 					</div>

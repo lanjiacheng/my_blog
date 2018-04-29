@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:7:{s:68:"D:\wamp\www\my_blog\public/../application/index\view\index\post.html";i:1523874310;s:22:"static/model/head.html";i:1524833424;s:21:"static/model/nav.html";i:1524831987;s:30:"static/model/post_content.html";i:1524040813;s:27:"static/model/other_bar.html";i:1524832627;s:32:"static/model/calendar_input.html";i:1524022393;s:24:"static/model/footer.html";i:1524009893;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:7:{s:68:"D:\wamp\www\my_blog\public/../application/index\view\index\post.html";i:1523874310;s:22:"static/model/head.html";i:1524927514;s:21:"static/model/nav.html";i:1524927514;s:30:"static/model/post_content.html";i:1524927514;s:27:"static/model/other_bar.html";i:1524927514;s:32:"static/model/calendar_input.html";i:1524927514;s:24:"static/model/footer.html";i:1524927514;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 		<!-- 头文件 -->

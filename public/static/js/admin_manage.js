@@ -78,16 +78,19 @@ $(".un_top").each(function () {
 
 $(".delete").each(function () {
     $(this).click(function () {
-        var id_of_post = $($(this).parent()).attr("id_of_post");
-        var cur_btn = $(this);
-        $.get("/admin/operation/handle_manage.html" + "?manage=delete&id=" + id_of_post, function (data, status) {
-            alert(data);
-            var parents = cur_btn.parents();
-            parents.each(function () {
-                if ($(this).is("li")) {
-                    $(this).remove();
-                }
+        con = confirm("删除操作不可撤销，您确定要删除吗？");
+        if (con) {
+            var id_of_post = $($(this).parent()).attr("id_of_post");
+            var cur_btn = $(this);
+            $.get("/admin/operation/handle_manage.html" + "?manage=delete&id=" + id_of_post, function (data, status) {
+                alert(data);
+                var parents = cur_btn.parents();
+                parents.each(function () {
+                    if ($(this).is("li")) {
+                        $(this).remove();
+                    }
+                });
             });
-        });
+        }
     });
 });

@@ -75,7 +75,7 @@ class Operation extends Controller
         $rows = 5;                 //定义每页显示数目
 
         $post = new Post();
-        $posts = $post->whereTime("create_date", "between", [$month, $month . '-31'])->order("timestamp", "asc")->paginate($rows);
+        $posts = $post->whereTime("create_date", "between", [$month, $month . '-31'])->order("is_top desc,timestamp asc")->paginate($rows);
         $this->assign("title", $title);
         $this->assign("posts", $posts);
         $this->assign("page", $page);
