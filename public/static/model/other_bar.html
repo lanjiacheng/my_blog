@@ -51,7 +51,8 @@
         <ul id="my_month_ul">
             {volist name="recent_months" id="recent_month"}
             <li>
-                <a href="/index/index/category_by_month.html?month={$recent_month.str}"> {$recent_month.year} 年 {$recent_month.month} 月</a>
+                <span class="glyphicon glyphicon-calendar" style="margin-left: 5px;"></span>
+                <a href="/index/index/category_by_month.html?month={$recent_month.str}" style="float: right;margin-right: 15px;">{$recent_month.year} 年 {$recent_month.month} 月</a>
             </li>
             {/volist}
         </ul>
