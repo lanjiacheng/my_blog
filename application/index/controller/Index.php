@@ -175,7 +175,7 @@ class Index extends Controller
     {
         $this->view = new View();
         //定义一个空变量，在查找不到数据的时候显示
-        $empty = '<div class="alert alert-warning" role="alert">暂时查找不到您想看的数据，请先看看别的内容吧。</div>';
+        $empty = '<div class="alert alert-warning" role="alert">暂时查找不到您要浏览的数据，请先看看别的内容吧。</div>';
         $this->view->assign("empty",$empty);
     }
 }
