@@ -34464,6 +34464,7 @@ e
 [ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
 [ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
 [ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+<<<<<<< HEAD
 >>>>>>> bdf8dc155b9e1e3a1ae1fbfcb2453b6b5197dcaf
 ---------------------------------------------------------------
 [ 2018-04-29T20:17:28+08:00 ] 171.106.221.233 GET /
@@ -34549,3 +34550,682 @@ e
 [ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000705s ]
 [ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000222s ]
 [ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000190s ]
+=======
+---------------------------------------------------------------
+[ 2018-04-29T22:46:27+08:00 ] 192.168.2.130 GET /admin/overview/day.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:48:40+08:00 ] 192.168.2.130 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525013320376,'LJC','2018-04-29','diary','从小学六年级到大二之人生第一篇博文','这是人生第一篇博文，发表在自己写的博客网站上。第一次看见“博客”这个名词是在《小学作文精选》这类书上，那时候读小学六年级。后来就没有接触过博客这种东西了。','<p>这是人生第一篇博文，发表在自己写的博客网站上。第一次看见“博客”这个名词是在《小学作文精选》这类书上，那时候读小学六年级。后来就没有接触过博客这种东西了。直到上了高中，叛逆的我崇拜一个更叛逆的人，他叫韩寒。在了解他的事迹、关注他的微博、看过他的电影、读遍他的小说之后，我还浏览了他的博客。</p><p>然后呢，这些跟我写这个博客网站和这篇博文没有太大关系。写了就是写了，并不没有某种梦想成真的喜悦。甚至成就感仅来自于我独立完成了逻辑不算太简单的网站前台展示后台管理的设计以及前端界面后端逻辑的编写。</p><p>写这个网站满打满算花了整整十七天，当然不包括吃饭睡觉上课的时间。从13号开始写，到今晚（29号），有时候写到怀疑人生。因为，几乎是一边学一边写的，在此感谢万能的百度，还有那个叫bootstrap的前端框架，还有很多要感谢的啊。网站的编写使用了html+php+js语言，运行在lamp环境下。不多说了，附上源码地址：<br/>
+<a href=”https://github.com/lanjiacheng/my_blog.git”>点我获取源码</a>
+</p><p>写网站的初衷是练一下手，后来觉得它大有可为。我想用这个博客记录下我的素日见闻、平生足迹、编程心得、以及粗鄙见识。过去的美好已经来不及细写，往后的琐屑将暂刻于此。</p>') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:48:44+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(-1062731134,'2018-04-29 22:48:44',NULL,0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 22:48:44' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:48:58+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:48:59+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:49:02+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:49:10+08:00 ] 192.168.2.130 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] update post set post_click_count = 1 where id = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1',visit_posts_count = 1 where id = 3 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:49:51+08:00 ] 192.168.2.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(-1062731031,'2018-04-29 22:49:51',NULL,0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 22:49:51' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:50:52+08:00 ] 192.168.2.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] update post set post_click_count = 2 where id = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1',visit_posts_count = 1 where id = 4 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:51:42+08:00 ] 192.168.2.233 GET /index/index/%E2%80%9Dhttps://github.com/lanjiacheng/my_blog.git%E2%80%9D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:51:53+08:00 ] 192.168.2.233 GET /index/index/%E2%80%9Dhttps://github.com/lanjiacheng/my_blog.git%E2%80%9D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:56:17+08:00 ] 192.168.2.130 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525013777146,'LJC','2018-04-29','diary','博文二','写这个网站满打满算花了整整十七天，当然不包括吃饭睡觉上课的时间。从13号开始写，到今晚（29号），有时候写到怀疑人生。因为，几乎是一边学一边写的，在此感谢万能的百度，还有那个叫bootstrap的前端框架，还有很多要感谢的啊。网站的编写使用了html+php+js语言，运行在lamp环境下。不多说了，附上源码地址：<br/>
+<a color=”blue” href=”https://github.com/lanjiacheng/my_blog.git” target=”_blank”>点我获取源码</a>
+','<p>写这个网站满打满算花了整整十七天，当然不包括吃饭睡觉上课的时间。从13号开始写，到今晚（29号），有时候写到怀疑人生。因为，几乎是一边学一边写的，在此感谢万能的百度，还有那个叫bootstrap的前端框架，还有很多要感谢的啊。网站的编写使用了html+php+js语言，运行在lamp环境下。不多说了，附上源码地址：<br/>
+<a color=”blue” href=”https://github.com/lanjiacheng/my_blog.git” target=”_blank”>点我获取源码</a>
+</p>') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:56:20+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:56:35+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:57:00+08:00 ] 192.168.2.130 GET /index/index/post.html?post_id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where id = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] update post set post_click_count = 1 where id = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1,2',visit_posts_count = 2 where id = 3 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:57:03+08:00 ] 192.168.2.130 GET /index/index/%E2%80%9Dhttps://github.com/lanjiacheng/my_blog.git%E2%80%9D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:58:19+08:00 ] 192.168.2.130 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525013899234,'LJC','2018-04-29','diary','博文三','写这个网站满打满算花了整整十七天，当然不包括吃饭睡觉上课的时间。从13号开始写，到今晚（29号），有时候写到怀疑人生。因为，几乎是一边学一边写的，在此感谢万能的百度，还有那个叫bootstrap的前端框架，还有很多要感谢的啊。网站的编写使用了html+php+js语言，运行在lamp环境下。不多说了，附上源码地址：<br/>
+https://github.com/lanjiacheng/my_blog.git
+','<p>写这个网站满打满算花了整整十七天，当然不包括吃饭睡觉上课的时间。从13号开始写，到今晚（29号），有时候写到怀疑人生。因为，几乎是一边学一边写的，在此感谢万能的百度，还有那个叫bootstrap的前端框架，还有很多要感谢的啊。网站的编写使用了html+php+js语言，运行在lamp环境下。不多说了，附上源码地址：<br/>
+https://github.com/lanjiacheng/my_blog.git
+</p>') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:58:23+08:00 ] 192.168.2.130 GET /index/index/post.html?post_id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where id = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 3 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:58:29+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:58:40+08:00 ] 192.168.2.130 GET /index/index/post.html?post_id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where id = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] update post set post_click_count = 1 where id = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1,2,3',visit_posts_count = 3 where id = 3 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:59:04+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:59:06+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '2' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:59:08+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '3' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T22:59:30+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:00:17+08:00 ] 192.168.2.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:01:47+08:00 ] 192.168.2.130 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525014107738,'LJC','2018-04-29','diary','啊','q1','') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:01:50+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:01:53+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:01:55+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '4' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:01:59+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:03:56+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:04:04+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:04:23+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(-1062731134,'2018-04-29 23:04:23',NULL,0) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:04:23' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:05:25+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:06:46+08:00 ] 192.168.2.130 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:07:20+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:07:22+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:07:23+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:07:30+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:07:33+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:07:59+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:01+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:04+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:22+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:27+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:30+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:34+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:40+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:45+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:47+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:49+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:52+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:54+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:08:57+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:09:54+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:09:55+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:09:58+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=un_top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '0' where id = '1' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:10:02+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:10:03+08:00 ] 192.168.2.130 GET /admin/operation/handle_manage.html?manage=top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '1' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:10:06+08:00 ] 192.168.2.130 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000000s ]
+>>>>>>> origin/master
+---------------------------------------------------------------
+[ 2018-04-29T23:18:39+08:00 ] 171.106.221.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000422s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875907561,'2018-04-29 23:18:39',NULL,0) [ RunTime:0.000420s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:18:39' [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:20:17+08:00 ] 171.106.221.233 GET /admin/signin/handle_signin.html?account=root&password=ljc19980217.
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from admin_account where account = 'root' [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:20:20+08:00 ] 171.106.221.233 GET /admin/overview/day.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:21:59+08:00 ] 171.106.221.233 GET /admin/overview/day.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-04-29' order by id desc [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:23:42+08:00 ] 171.106.221.233 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525015427338,'LJC','2018-04-29','diary','从小学六年级到大二之人生第一篇博文','这是人生第一篇博文，发表在自己写的博客网站上。第一次看见“博客”这个名词是在《小学作文精选》这类书上，那时候读小学六年级。后来就没有接触过博客这种东西了。','<p>这是人生第一篇博文，发表在自己写的博客网站上。第一次看见“博客”这个名词是在《小学作文精选》这类书上，那时候读小学六年级。后来就没有接触过博客这种东西了。直到上了高中，叛逆的我崇拜一个更叛逆的人，他叫韩寒。在了解他的事迹、关注他的微博、看过他的电影、读遍他的小说之后，我还浏览了他的博客。</p><p>然后呢，这些跟我写这个博客网站和这篇博文没有太大关系。写了就是写了，并不没有某种梦想成真的喜悦。甚至成就感仅来自于我独立完成了逻辑不算太简单的网站前台展示后台管理的设计以及前端界面后端逻辑的编写。</p><p>写这个网站满打满算花了整整十七天，当然不包括吃饭睡觉上课的时间。从13号开始写，到今晚（29号），有时候写到怀疑人生。因为，几乎是一边学一边写的，在此感谢万能的百度，还有那个叫bootstrap的前端框架，还有很多要感谢的啊。网站的编写使用了html+php+js语言，运行在lamp环境下。不多说了，附上源码地址：<br/>
+https://github.com/lanjiacheng/my_blog.git
+</p><p>写网站的初衷是练一下手，后来觉得它大有可为。我想用这个博客记录下我的素日见闻、平生足迹、编程心得、以及粗鄙见识。过去的美好已经来不及细写，往后的琐屑将暂刻于此。</p>') [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:23:48+08:00 ] 171.106.221.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000413s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875907561,'2018-04-29 23:23:48',NULL,0) [ RunTime:0.000373s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:23:48' [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:29:17+08:00 ] 171.106.221.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000456s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000374s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:29:29+08:00 ] 171.106.221.233 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:29:30+08:00 ] 171.106.221.233 GET /admin/operation/handle_manage.html?manage=top&id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '1' [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:29:34+08:00 ] 171.106.221.233 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:29:44+08:00 ] 171.106.221.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000332s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:30:45+08:00 ] 171.106.221.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:31:31+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000349s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 17 [ RunTime:0.000260s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-29T23:31:46+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 17 [ RunTime:0.000233s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-29T23:32:35+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 17 [ RunTime:0.000237s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-29T23:32:51+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 17 [ RunTime:0.000346s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-29T23:33:01+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000369s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 18 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] update post set post_click_count = 1 where id = 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1',visit_posts_count = 1 where id = 18 [ RunTime:0.000216s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:33:13+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000381s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 18 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:33:23+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 17 [ RunTime:0.000257s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-29T23:33:29+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000412s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 18 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:33:41+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000439s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000373s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 17 [ RunTime:0.000334s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-29T23:34:13+08:00 ] 171.106.221.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000366s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:34:18+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 17 [ RunTime:0.000216s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-29T23:34:37+08:00 ] 171.106.221.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875907561,'2018-04-29 23:34:37',NULL,0) [ RunTime:0.000398s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:34:37' [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000225s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:34:42+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000370s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 19 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] update post set post_click_count = 2 where id = 1 [ RunTime:0.001197s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1',visit_posts_count = 1 where id = 19 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:35:28+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 19 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:36:05+08:00 ] 171.106.221.233 GET /index/index/category_by_month.html?month=2018-04
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY `timestamp`  asc LIMIT 0,3 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:40:53+08:00 ] 171.106.221.233 GET /index/index/category_by_month.html?month=2018-04
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000327s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-04-01' AND '2018-05-01' ORDER BY `timestamp`  asc LIMIT 0,3 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:41:06+08:00 ] 171.106.221.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000453s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000300s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:41:36+08:00 ] 163.177.90.152 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2746309272,'2018-04-29 23:41:36',NULL,0) [ RunTime:0.001422s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:41:36' [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:41:44+08:00 ] 171.106.221.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875907561,'2018-04-29 23:41:44',NULL,0) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:41:44' [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:42:06+08:00 ] 171.106.221.233 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 21 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] update post set post_click_count = 3 where id = 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1',visit_posts_count = 1 where id = 21 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:42:07+08:00 ] 14.17.3.64 GET /index/index/post.html?post_id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000313s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(235995968,'2018-04-29 23:42:07',NULL,0) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:42:07' [ RunTime:0.000232s ]
+[ sql ] [ SQL ] select * from post where id = 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 22 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] update post set post_click_count = 4 where id = 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',1',visit_posts_count = 1 where id = 22 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:42:24+08:00 ] 171.106.221.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:42:36+08:00 ] 61.151.178.177 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1033351857,'2018-04-29 23:42:36',NULL,0) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-04-29 23:42:36' [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2018-04-29T23:45:31+08:00 ] 171.106.221.233 GET /index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000414s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000291s ]

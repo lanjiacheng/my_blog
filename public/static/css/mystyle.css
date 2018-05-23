@@ -118,3 +118,8 @@ h3{
 p{
     text-indent: 2em;
 }
+
+.main-slider img{
+    width: 100%;
+    height: auto;
+}

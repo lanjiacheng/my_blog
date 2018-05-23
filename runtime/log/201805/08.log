@@ -1,0 +1,431 @@
+---------------------------------------------------------------
+[ 2018-05-08T00:14:50+08:00 ] 114.215.252.225 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1926757601,'2018-05-08 00:14:50',NULL,0) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 00:14:50' [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-05-08T02:24:03+08:00 ] 121.40.20.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000368s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2032669697,'2018-05-08 02:24:03',NULL,0) [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 02:24:03' [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2018-05-08T04:15:02+08:00 ] 196.52.43.62 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000469s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(3291753278,'2018-05-08 04:15:02',NULL,0) [ RunTime:0.000508s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 04:15:02' [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2018-05-08T05:16:21+08:00 ] 5.189.175.120 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(96317304,'2018-05-08 05:16:21',NULL,0) [ RunTime:0.000264s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 05:16:21' [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2018-05-08T09:09:08+08:00 ] 114.215.252.225 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000901s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000321s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1926757601,'2018-05-08 09:09:08',NULL,0) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 09:09:08' [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2018-05-08T11:50:32+08:00 ] 189.145.235.146 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(3180456850,'2018-05-08 11:50:32',NULL,0) [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 11:50:32' [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2018-05-08T11:50:38+08:00 ] 189.145.235.146 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000313s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(3180456850,'2018-05-08 11:50:38',NULL,0) [ RunTime:0.000273s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 11:50:38' [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2018-05-08T11:54:30+08:00 ] 101.200.121.9 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000358s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1707637001,'2018-05-08 11:54:30',NULL,0) [ RunTime:0.000291s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 11:54:30' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2018-05-08T12:57:27+08:00 ] 211.23.154.138 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(3541539466,'2018-05-08 12:57:27',NULL,0) [ RunTime:0.000261s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 12:57:27' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2018-05-08T15:44:58+08:00 ] 60.191.38.77 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1019160141,'2018-05-08 15:44:58',NULL,0) [ RunTime:0.000333s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 15:44:58' [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2018-05-08T16:50:13+08:00 ] 185.222.210.29 PROPFIND /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(3118387741,'2018-05-08 16:50:13',NULL,0) [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 16:50:13' [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2018-05-08T18:40:14+08:00 ] 118.190.15.39 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1992167207,'2018-05-08 18:40:14',NULL,0) [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 18:40:14' [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2018-05-08T18:48:05+08:00 ] 106.15.76.85 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1779387477,'2018-05-08 18:48:05',NULL,0) [ RunTime:0.001286s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 18:48:05' [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2018-05-08T19:37:21+08:00 ] 171.106.223.185 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000352s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875908025,'2018-05-08 19:37:21',NULL,0) [ RunTime:0.000265s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 19:37:21' [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2018-05-08T20:24:59+08:00 ] 106.15.76.85 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1779387477,'2018-05-08 20:24:59',NULL,0) [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 20:24:59' [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2018-05-08T21:40:22+08:00 ] 171.106.223.185 GET /admin/signin/handle_signin.html?account=root&password=ljc19980217.&remember_password=yes
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from admin_account where account = 'root' [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2018-05-08T21:40:25+08:00 ] 171.106.223.185 GET /admin/overview/day.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-05-08' order by id desc [ RunTime:0.000616s ]
+---------------------------------------------------------------
+[ 2018-05-08T21:47:27+08:00 ] 123.151.42.61 GET http://www.baidu.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2073504317,'2018-05-08 21:47:27',NULL,0) [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 21:47:27' [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:12:04+08:00 ] 171.106.223.185 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525788734432,'LJC','2018-05-08','programme','CSS中的html定位','CSS不仅仅能够定义html元素的显示效果，还能够定义html元素的位置。定义html元素的位置，是CSS的一大应用实例。一个复杂的html页面往往离不开CSS的定位效果。CSS定位主要用到几个属性display、position以及float，掌握这几个属性，加以灵活运用，就可以设计出布局丰富多样的html页面。','<h3>理解CSS中的html定位，需要先搞清几点知识和概念：</h3><p>1.默认情况下html中的任何元素都以一个盒子模型的形式显示。块级元素是一个独立的盒子，多个连续的（或单个独立的）内联元素是一个单独的盒子。
+<br/>2.默认情况下html中的元素都包含在普通文档流中。块级元素的普通流为从上到下竖直排列，内联元素的普通流为从左到右水平排列（碰到外层盒子会折行显示）。</p><h3>CSS中实现元素定位的方法：</h3><p><br/>1.通过定义position属性：
+<br/>static：定义position属性值为static，就是默认效果，元素仍处于普通文档流默认位置，与不定义position属性无异。
+<br/>relative：定义position属性值为relative，目标元素在文档流中的空间仍存在（未脱离，以空白填充），但是可以根据left或top等属性确定目标元素相对于它在原来的普通文档流中的位置的偏移量。
+<br/>absolute：定义position属性为absolute，目标元素脱离普通文档流，存在于文档流中的空间消失，相当于html中没有该元素。但可以通过定义left或top等属性确定目标元素相对于它的父元素（容器）的位置。
+<br/>fixed：fixed属性的效果与absolute属性效果类似，但是它总以视窗为父元素（容器），所定义偏移位置都是相对于当前视窗位置而言的。</p><p><br/>2.通过定义float属性：
+<br/>可以定义float属性为left、right来决定元素的浮动方向。当目标元素的float属性被定义时，他将脱离普通文档流。浮动的元素会按浮动方向进行浮动，若碰到同样是浮动的元素就会停止，若碰到视窗边缘就会折行显示（到下一行显示）。同时可以通过clear属性来定义文档流中的段落的某一边不能触碰到浮动元素。clear属性值可为left或right。该属性的效果往往是使段落元素向下移动，以使其左边或右边与浮动文档错开（不在同一水平位置重叠）。</p>') [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:12:08+08:00 ] 171.106.223.185 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875908025,'2018-05-08 22:12:08',NULL,0) [ RunTime:0.000269s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 22:12:08' [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:12:12+08:00 ] 171.106.223.185 GET /index/index/post.html?post_id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select * from post where id = 2 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 264 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] update post set post_click_count = 1 where id = 2 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',2',visit_posts_count = 1 where id = 264 [ RunTime:0.000224s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:13:41+08:00 ] 171.106.223.185 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525788831280,'LJC','2018-05-08','programme','CSS中的html定位','CSS不仅仅能够定义html元素的显示效果，还能够定义html元素的位置。定义html元素的位置，是CSS的一大应用实例。一个复杂的html页面往往离不开CSS的定位效果。CSS定位主要用到几个属性display、position以及float，掌握这几个属性，加以灵活运用，就可以设计出布局丰富多样的html页面。','<h3>理解CSS中的html定位，需要先搞清几点知识和概念：</h3><p><br/>1.默认情况下html中的任何元素都以一个盒子模型的形式显示。块级元素是一个独立的盒子，多个连续的（或单个独立的）内联元素是一个单独的盒子。
+<br/>2.默认情况下html中的元素都包含在普通文档流中。块级元素的普通流为从上到下竖直排列，内联元素的普通流为从左到右水平排列（碰到外层盒子会折行显示）。<br/></p><h3>CSS中实现元素定位的方法：</h3><p><br/>1.通过定义position属性：
+<br/>static：定义position属性值为static，就是默认效果，元素仍处于普通文档流默认位置，与不定义position属性无异。
+<br/>relative：定义position属性值为relative，目标元素在文档流中的空间仍存在（未脱离，以空白填充），但是可以根据left或top等属性确定目标元素相对于它在原来的普通文档流中的位置的偏移量。
+<br/>absolute：定义position属性为absolute，目标元素脱离普通文档流，存在于文档流中的空间消失，相当于html中没有该元素。但可以通过定义left或top等属性确定目标元素相对于它的父元素（容器）的位置。
+<br/>fixed：fixed属性的效果与absolute属性效果类似，但是它总以视窗为父元素（容器），所定义偏移位置都是相对于当前视窗位置而言的。</p><p><br/>2.通过定义float属性：
+<br/>可以定义float属性为left、right来决定元素的浮动方向。当目标元素的float属性被定义时，他将脱离普通文档流。浮动的元素会按浮动方向进行浮动，若碰到同样是浮动的元素就会停止，若碰到视窗边缘就会折行显示（到下一行显示）。同时可以通过clear属性来定义文档流中的段落的某一边不能触碰到浮动元素。clear属性值可为left或right。该属性的效果往往是使段落元素向下移动，以使其左边或右边与浮动文档错开（不在同一水平位置重叠）。</p>') [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:13:45+08:00 ] 171.106.223.185 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:13:55+08:00 ] 171.106.223.185 GET /index/index/post.html?post_id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000339s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] select * from post where id = 3 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 264 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] update post set post_click_count = 1 where id = 3 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',2,3',visit_posts_count = 2 where id = 264 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:15:18+08:00 ] 171.106.223.185 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000439s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:15:26+08:00 ] 171.106.223.185 GET /admin/operation/handle_manage.html?manage=delete&id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select timestamp from post where id = 3 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] delete from post where post.id = '3' [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:15:29+08:00 ] 171.106.223.185 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:15:32+08:00 ] 171.106.223.185 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000477s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:15:35+08:00 ] 171.106.223.185 GET /index/index/post.html?post_id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000405s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] select * from post where id = 2 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 264 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:16:05+08:00 ] 171.106.223.185 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525788973905,'LJC','2018-05-08','programme','CSS中的html定位','CSS不仅仅能够定义html元素的显示效果，还能够定义html元素的位置。定义html元素的位置，是CSS的一大应用实例。一个复杂的html页面往往离不开CSS的定位效果。CSS定位主要用到几个属性display、position以及float，掌握这几个属性，加以灵活运用，就可以设计出布局丰富多样的html页面。','') [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:16:16+08:00 ] 171.106.223.185 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525788983744,'LJC','2018-05-08','programme','CSS中的html定位','CSS不仅仅能够定义html元素的显示效果，还能够定义html元素的位置。定义html元素的位置，是CSS的一大应用实例。一个复杂的html页面往往离不开CSS的定位效果。CSS定位主要用到几个属性display、position以及float，掌握这几个属性，加以灵活运用，就可以设计出布局丰富多样的html页面。','') [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:16:19+08:00 ] 171.106.223.185 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000323s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:16:33+08:00 ] 171.106.223.185 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:16:53+08:00 ] 171.106.223.185 GET /admin/operation/handle_manage.html?manage=delete&id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select timestamp from post where id = 2 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] delete from post where post.id = '2' [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:17:04+08:00 ] 171.106.223.185 GET /admin/operation/handle_manage.html?manage=delete&id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select timestamp from post where id = 4 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] delete from post where post.id = '4' [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:17:07+08:00 ] 171.106.223.185 GET /admin/operation/handle_manage.html?manage=delete&id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select timestamp from post where id = 5 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] delete from post where post.id = '5' [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:17:27+08:00 ] 171.106.223.185 GET /admin/overview/day.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from visit where DATE_FORMAT(visit_time,'%Y-%m-%d')='2018-05-08' order by id desc [ RunTime:0.000633s ]
+[ sql ] [ SQL ] select title from post where id = 2 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:17:31+08:00 ] 171.106.223.185 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:20:40+08:00 ] 171.106.223.185 POST /admin/operation/handle_publish_post
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] insert into post(timestamp,author,create_date,category,title,preview,content) values(1525789250609,'LJC','2018-05-08','programme','CSS中的html定位','CSS不仅仅能够定义html元素的显示效果，还能够定义html元素的位置。定义html元素的位置，是CSS的一大应用实例。一个复杂的html页面
+往往离不开CSS的定位效果。CSS定位主要用到几个属性display、position以及float，掌握这几个属性，加以灵活运用，就可以设计出布局
+丰富多样的html页面。','<h3>理解CSS中的html定位，需要先搞清几点知识和概念：</h3><p><br/>1.默认情况下html中的任何元素都以一个盒子模型的形式显示。块级元素是一个独立的盒子，多个连续的（或单个独立的）内联元素是一个单独的盒子。<br/>
+2.默认情况下html中的元素都包含在普通文档流中。块级元素的普通流为从上到下竖直排列，内联元素的普通流为从左到右水平排列（碰到外层盒子会折行显示）<br/></p><h3>CSS中实现元素定位的方法：</h3><p><br/>1.通过定义position属性：
+<br/>static：定义position属性值为static，就是默认效果，元素仍处于普通文档流默认位置，与不定义position属性无异。
+<br/>relative：定义position属性值为relative，目标元素在文档流中的空间仍存在（未脱离，以空白填充），但是可以根据left或top等属性确定目标元素相对于它在原来的普通文档流中的位置的偏移量。
+<br/>absolute：定义position属性为absolute，目标元素脱离普通文档流，存在于文档流中的空间消失，相当于html中没有该元素。但可以通过定义left或top等属性确定目标元素相对于它的父元素（容器）的位置。
+<br/>fixed：fixed属性的效果与absolute属性效果类似，但是它总以视窗为父元素（容器），所定义偏移位置都是相对于当前视窗位置而言的。<br/></p><p><br/>2.通过定义float属性：
+<br/>可以定义float属性为left、right来决定元素的浮动方向。当目标元素的float属性被定义时，他将脱离普通文档流。浮动的元素会按浮动方向进行浮动，若碰到同样是浮动的元素就会停止，若碰到视窗边缘就会折行显示（到下一行显示）。同时可以通过clear属性来定义文档流中的段落的某一边不能触碰到浮动元素。clear属性值可为left或right。该属性的效果往往是使段落元素向下移动，以使其左边或右边与浮动文档错开（不在同一水平位置重叠）。</p>') [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:20:43+08:00 ] 171.106.223.185 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000318s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:20:46+08:00 ] 171.106.223.185 GET /index/index/post.html?post_id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000329s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select * from post where id = 6 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 264 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] update post set post_click_count = 1 where id = 6 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',2,3,6',visit_posts_count = 3 where id = 264 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:21:11+08:00 ] 171.106.223.185 GET /admin/operation/manage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `post` WHERE  `create_date` BETWEEN '2018-05-01' AND '2018-05-31' ORDER BY is_top desc,timestamp asc LIMIT 0,5 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:21:13+08:00 ] 171.106.223.185 GET /admin/operation/handle_manage.html?manage=top&id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] update post set is_top = '1' where id = '6' [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:21:18+08:00 ] 171.106.223.185 GET /index/index/post.html?post_id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000332s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select * from post where id = 6 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 264 [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:21:24+08:00 ] 171.106.223.185 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:22:17+08:00 ] 171.106.223.185 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000332s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(2875908025,'2018-05-08 22:22:17',NULL,0) [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 22:22:17' [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:23:30+08:00 ] 171.106.223.185 GET /index/index/post.html?post_id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] select * from post where id = 6 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select visit_posts,visit_posts_count from visit where id = 265 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] update post set post_click_count = 2 where id = 6 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] update visit set visit_posts = ',6',visit_posts_count = 1 where id = 265 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:24:35+08:00 ] 171.106.223.185 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000342s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2018-05-08T22:45:38+08:00 ] 39.107.14.208 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(661327568,'2018-05-08 22:45:38',NULL,0) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 22:45:38' [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2018-05-08T23:35:58+08:00 ] 106.15.76.85 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=database_01;charset=utf8
+[ sql ] [ SQL ] select * from author [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select * from post order by post_click_count desc limit 5 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] select * from post where is_top = 1 order by timestamp desc limit 3 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] INSERT INTO visit (ip,visit_time,visit_posts,visit_author) VALUES(1779387477,'2018-05-08 23:35:58',NULL,0) [ RunTime:0.000269s ]
+[ sql ] [ SQL ] select id from visit where visit_time = '2018-05-08 23:35:58' [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `post` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT * FROM `post` ORDER BY `timestamp`  desc LIMIT 0,5 [ RunTime:0.000250s ]
